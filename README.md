@@ -1,6 +1,6 @@
 # Azure-SOC-Lab
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://imgur.com/2nX1Hxh.jpg)
+<a href="https://imgur.com/2nX1Hxh"><img src="https://i.imgur.com/2nX1Hxh.png" title="source: imgur.com" /></a>
 
 ## Introduction
 
@@ -15,10 +15,10 @@ The metrics shown in this lab are: <br>
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://imgur.com/1CpSCfS.jpg)
+<a href="https://imgur.com/1CpSCfS"><img src="https://i.imgur.com/1CpSCfS.png" title="source: imgur.com" /></a>
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://imgur.com/dUsUb1f.jpg)
+<a href="https://imgur.com/dUsUb1f"><img src="https://i.imgur.com/dUsUb1f.png" title="source: imgur.com" /></a>
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -38,11 +38,11 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 - Windows RDP Auth Fail 
 ![windows-rdp-auth-fail](https://imgur.com/2k2GjOw.png)<br>
 - Linux Syslog Auth Failures
-![Linux Syslog Auth Failures](https://imgur.com/3x6VSYA.png)<br>
+<a href="https://imgur.com/3x6VSYA"><img src="https://i.imgur.com/3x6VSYA.png" title="source: imgur.com" /></a>
 - NSG-Malicious Allowed In
-![NSG-Malicious Allowed In](https://imgur.com/Q1NVqJF.png)<br>
+<a href="https://imgur.com/Q1NVqJF"><img src="https://i.imgur.com/Q1NVqJF.png" title="source: imgur.com" /></a>
 - MsSql-auth-fail
-![MsSql-auth-fail](https://imgur.com/HatcM02.png)<br>
+<a href="https://imgur.com/HatcM02"><img src="https://i.imgur.com/HatcM02.png" title="source: imgur.com" /></a>
 
 ## Metrics Before Hardening / Security Controls
 
